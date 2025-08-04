@@ -16,3 +16,4 @@ int main () {
     cout << "min = " << Min << endl;
     return 0;
 }
+
