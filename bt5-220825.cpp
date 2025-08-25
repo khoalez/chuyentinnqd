@@ -2,14 +2,11 @@
 using namespace std;
 
 int main() {
-    int N, M,tien;
-    cin >> N >> M;
-    N *= 3000;
-    while (tien < M) {
-        M ++ ;
-
-    }
- cout << tien;
+    int n, m,tien, goi;
+    cin >> n >> m;
+    goi = n / (m +1);
+    tien = (n - goi) * 3000;
+    cout << tien;
     return 0;
 }
 
